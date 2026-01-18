@@ -197,15 +197,13 @@ const About = () => {
 
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">Success Stories</div>
-                        <h2 className="sec-title_heading">Our clients share their <br /> fitness <span>journey</span></h2>
+                        <h2 className="sec-title_heading">Our clients share their <br /> <span>experience</span></h2>
                     </div>
 
                     <div className="three-item_carousel ">
                         <div className="swiper-wrapper">
 
-
                             <div className="swiper-slide">
-
                                 <div className="testimonial-block_one">
                                     <div className="testimonial-block_one-inner">
                                         <div className="testimonial-block_one-rating">
@@ -215,20 +213,18 @@ const About = () => {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                         </div>
-                                        <div className="testimonial-block_one-text">Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</div>
+                                        <div className="testimonial-block_one-text">I really enjoyed the creative and design process. I am very pleased with the created PDF plans. All the work was professional and I enjoyed the interactions that we had. Thank you, I am very satisfied.</div>
                                         <div className="testimonial-block_one-author_box">
                                             <div className="testimonial-block_one-author-image">
-                                                <img src="./assets/images/resource/author-2.png" alt="" />
+                                                <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/profile/photos/577137/original/pops_matrix.jpg" alt="Jpgarcia" />
                                             </div>
-                                            Larry K. Lund <span>Social Media Manger</span>
+                                            Jpgarcia <span>United States</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-
                             <div className="swiper-slide">
-
                                 <div className="testimonial-block_one">
                                     <div className="testimonial-block_one-inner">
                                         <div className="testimonial-block_one-rating">
@@ -238,20 +234,18 @@ const About = () => {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                         </div>
-                                        <div className="testimonial-block_one-text">Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</div>
+                                        <div className="testimonial-block_one-text">Great job and fast delivery</div>
                                         <div className="testimonial-block_one-author_box">
                                             <div className="testimonial-block_one-author-image">
-                                                <img src="./assets/images/resource/author-3.png" alt="" />
+                                                <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/25a3cf5523c0ae9384d74a9e471f1c65-1705973925652/5be034f3-d4c0-4824-8888-11b83c53d1a7.jpg" alt="kiyakey" />
                                             </div>
-                                            Marian R. Vieira <span>Social Media Manger</span>
+                                            kiyakey <span>United States</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-
                             <div className="swiper-slide">
-
                                 <div className="testimonial-block_one">
                                     <div className="testimonial-block_one-inner">
                                         <div className="testimonial-block_one-rating">
@@ -261,19 +255,123 @@ const About = () => {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                         </div>
-                                        <div className="testimonial-block_one-text">Lorem ipsum amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</div>
+                                        <div className="testimonial-block_one-text">very nice to work with, I will definitely recommand him and I am looking forward to work with him again.</div>
                                         <div className="testimonial-block_one-author_box">
                                             <div className="testimonial-block_one-author-image">
-                                                <img src="./assets/images/resource/author-4.png" alt="" />
+                                                <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/1c27582ba5a5a26d8fddf579a9e0853e-1607600971552/da5b9c83-b848-4ec2-8749-a28af6eafefd.JPG" alt="Martin" />
                                             </div>
-                                            Bob E. Wiggins <span>Social Media Manger</span>
+                                            Martin <span>Senegal</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="swiper-slide">
+                                <div className="testimonial-block_one">
+                                    <div className="testimonial-block_one-inner">
+                                        <div className="testimonial-block_one-rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                        </div>
+                                        <div className="testimonial-block_one-text">Darshan&apos;s work was truly exceptional—he exceeded all expectations in building engineering. His quick responsiveness, proactive communication, and timely delivery made the entire process smooth and efficient. HIGHLY recommend!</div>
+                                        <div className="testimonial-block_one-author_box">
+                                            <div className="testimonial-block_one-author-image testimonial-block_one-author-initials">
+                                                D
+                                            </div>
+                                            Danieldurieu <span>Australia</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="swiper-slide">
+                                <div className="testimonial-block_one">
+                                    <div className="testimonial-block_one-inner">
+                                        <div className="testimonial-block_one-rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                        </div>
+                                        <div className="testimonial-block_one-text">We hired Er. Darshan to create an electrical single line circuit diagram for a technically complex project. His work was outstanding — not only did he deliver highly accurate and well-structured drawings, but he also demonstrated excellent understanding of electrical systems and standards.</div>
+                                        <div className="testimonial-block_one-author_box">
+                                            <div className="testimonial-block_one-author-image testimonial-block_one-author-initials">
+                                                S
+                                            </div>
+                                            Sebi <span>Switzerland</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="swiper-slide">
+                                <div className="testimonial-block_one">
+                                    <div className="testimonial-block_one-inner">
+                                        <div className="testimonial-block_one-rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                        </div>
+                                        <div className="testimonial-block_one-text">Darshan truly impressed with his remarkable expertise in Building Engineering, demonstrating SUPERB attention to detail and professionalism that exceeded all expectations. His polite and cooperative nature undoubtedly made for a streamlined collaboration.</div>
+                                        <div className="testimonial-block_one-author_box">
+                                            <div className="testimonial-block_one-author-image testimonial-block_one-author-initials">
+                                                G
+                                            </div>
+                                            Garretmcguire <span>Canada</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="swiper-slide">
+                                <div className="testimonial-block_one">
+                                    <div className="testimonial-block_one-inner">
+                                        <div className="testimonial-block_one-rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                        </div>
+                                        <div className="testimonial-block_one-text">Exceptional Solar Design – Highly Recommended. Delivered a highly professional and well-thought-out solar designs. His deep understanding of system layout, compliance, and performance optimization truly exceeded our expectations.</div>
+                                        <div className="testimonial-block_one-author_box">
+                                            <div className="testimonial-block_one-author-image testimonial-block_one-author-initials">
+                                                W
+                                            </div>
+                                            Wcheema <span>Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="swiper-slide">
+                                <div className="testimonial-block_one">
+                                    <div className="testimonial-block_one-inner">
+                                        <div className="testimonial-block_one-rating">
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                            <span className="fa fa-star"></span>
+                                        </div>
+                                        <div className="testimonial-block_one-text">Darshan truly IMPRESSED with his exceptional Solar Design skills, showcasing professionalism and ATTENTION TO DETAIL in every aspect. The designs delivered not only exceeded expectations but were completed within a short time.</div>
+                                        <div className="testimonial-block_one-author_box">
+                                            <div className="testimonial-block_one-author-image testimonial-block_one-author-initials">
+                                                S
+                                            </div>
+                                            Sajdesilva <span>Sri Lanka</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-
 
                         <div className="three-item_carousel-pagination"></div>
 

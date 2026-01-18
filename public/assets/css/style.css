@@ -1283,6 +1283,17 @@
 	overflow: hidden;
 }
 
+.testimonial-block_one-author-initials{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, var(--main-color) 0%, var(--color-two) 100%);
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
 .testimonial-block_one-author_box span{
 	position: relative;
 	display: block;
