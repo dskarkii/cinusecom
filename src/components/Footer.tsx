@@ -14,12 +14,12 @@ const Footer = () => {
                 <div className="big-column col-lg-5 col-md-12 col-sm-12">
                   <div className="footer-newsletter">
                     <h5 className="footer-title">Newsletter</h5>
-                    <div className="footer-newsletter_text">Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis.</div>
+                    <div className="footer-newsletter_text">Subscribe to our newsletter for the latest updates on solar design, engineering insights, and industry news.</div>
                     <div className="newsletter-box">
-                      <form method="post" action="contact.html">
+                      <form method="post" action="/contact">
                         <div className="form-group">
                           <span className="icon fa-regular fa-envelope fa-fw"></span>
-                          <input type="email" name="search-field" placeholder="Enter your mail" required />
+                          <input type="email" name="search-field" placeholder="Enter your email" required />
                           <button type="submit" className="template-btn btn-style-one">
                             <span className="btn-wrap">
                               <span className="text-one">Subscribe</span>
@@ -40,36 +40,34 @@ const Footer = () => {
                       <div className="column col-lg-5 col-md-4 col-sm-6">
                         <h5 className="footer-title">Services</h5>
                         <ul className="footer-pages_list">
-                          <li><a href="#">AI-powered copywriting</a></li>
-                          <li><a href="#">Blog post generation</a></li>
-                          <li><a href="#">Social media content</a></li>
-                          <li><a href="#">Product descriptions</a></li>
-                          <li><a href="#">Email campaigns</a></li>
-                          <li><a href="#">Copy writings</a></li>
-                          <li><a href="#">SEO specialist</a></li>
+                          <li><a href="/services">Solar PV Design</a></li>
+                          <li><a href="/services">Permit Design</a></li>
+                          <li><a href="/services">ROI Analysis</a></li>
+                          <li><a href="/services">Battery Storage (BESS)</a></li>
+                          <li><a href="/services">Telecom Engineering</a></li>
+                          <li><a href="/services">CAD/BIM Services</a></li>
+                          <li><a href="/services">Data Center Design</a></li>
                         </ul>
                       </div>
 
                       <div className="column col-lg-3 col-md-4 col-sm-6">
-                        <h5 className="footer-title">resources</h5>
+                        <h5 className="footer-title">Resources</h5>
                         <ul className="footer-pages_list">
-                          <li><a href="#">Blog</a></li>
-                          <li><a href="#">FAQs</a></li>
-                          <li><a href="#">Help center</a></li>
-                          <li><a href="#">case studies</a></li>
-                          <li><a href="#">whitepapers</a></li>
-                          <li><a href="#">Services</a></li>
+                          <li><a href="/about">About Us</a></li>
+                          <li><a href="/services">Our Services</a></li>
+                          <li><a href="/contact">Contact</a></li>
+                          <li><a href="/contact">Get a Quote</a></li>
+                          <li><a href="/#faq-one">FAQs</a></li>
                         </ul>
                       </div>
 
                       <div className="column col-lg-4 col-md-4 col-sm-6">
-                        <h5 className="footer-title">about us</h5>
+                        <h5 className="footer-title">Contact</h5>
                         <ul className="footer-pages_list">
-                          <li><a href="#">Our story</a></li>
-                          <li><a href="#">Team</a></li>
-                          <li><a href="#">Careers</a></li>
-                          <li><a href="#">Testimonials</a></li>
-                          <li><a href="#">Error 404</a></li>
+                          <li><a href="tel:+917349296574">+91 7349296574</a></li>
+                          <li><a href="mailto:contact@cinuse.com">contact@cinuse.com</a></li>
+                          <li>Bengaluru, Karnataka</li>
+                          <li>560017, India</li>
                         </ul>
                       </div>
                     </div>
@@ -83,14 +81,14 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="inner-container d-flex justify-content-between align-items-center flex-wrap">
-              <div className="footer-logo"><a href="index.html"><Image src="/assets/images/logo.svg" alt="" title="" width={150} height={50} unoptimized /></a></div>
-              <div className="footer-copyright">&copy; 2024 <a href="index.html">Cinuse.</a> All rights reserved.</div>
+              <div className="footer-logo"><a href="/"><Image src="/assets/images/logo.jpeg" alt="Cinuse" title="Cinuse" width={150} height={50} unoptimized /></a></div>
+              <div className="footer-copyright">&copy; {new Date().getFullYear()} <a href="/">Cinuse.</a> All rights reserved.</div>
 
               <div className="footer-social_box">
-                <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
-                <a href="https://youtube.com/"><i className="fa-brands fa-youtube"></i></a>
-                <a href="https://instagram.com/"><i className="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
               </div>
             </div>
           </div>

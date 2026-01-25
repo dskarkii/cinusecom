@@ -19,14 +19,14 @@ export default function Home() {
 
                   <div className="slider-one_content col-lg-7 col-md-12 col-sm-12">
                     <div className="slider-one_content-inner">
-                      <div className="slider-one_title"><i><Image src="/assets/images/main-slider/hand.png" alt="" width={30} height={30} unoptimized /></i> AI makes content fast & easy</div>
+                      <div className="slider-one_title"><i><Image src="/assets/images/main-slider/hand.png" alt="" width={30} height={30} unoptimized /></i> Expert Engineering Solutions</div>
                       <h1 className="slider-one_heading">Engineering the <span>Future</span> of Infrastructure</h1>
                       <div className="slider-one_text">Advanced design solutions for solar energy, telecommunications, and data centers. Built on precision, powered by innovation, designed for decades.</div>
                       <div className="slider-one_button d-flex align-items-center flex-wrap">
-                        <a href="about.html" className="template-btn btn-style-one">
+                        <a href="/contact" className="template-btn btn-style-one">
                           <span className="btn-wrap">
-                            <span className="text-one">Get started </span>
-                            <span className="text-two">Get started </span>
+                            <span className="text-one">Get started</span>
+                            <span className="text-two">Get started</span>
                           </span>
                         </a>
                         <div className="slider-one_video">
@@ -42,17 +42,17 @@ export default function Home() {
 
                       <div className="slider-one_author">
                         <i><Image src="/assets/images/main-slider/icon-2.png" alt="" width={60} height={60} unoptimized /></i>
-                        <h5 className="slider-one_author-name">Sara Ven</h5>
-                        <div className="slider-one_author-text">Social media manger</div>
+                        <h5 className="slider-one_author-name">Cinuse Team</h5>
+                        <div className="slider-one_author-text">Engineering Experts</div>
                       </div>
 
                       <div className="slider-one_percentage">
                         <i className="fa-solid fa-arrow-up fa-fw"></i>
                         <div className="slider-one_percent">100<sub>%</sub></div>
-                        <div className="slider-one_percentage-text">efficiency</div>
+                        <div className="slider-one_percentage-text">client satisfaction</div>
                       </div>
                       <div className="slider-one_graph">
-                        <div className="slider-one_graph-title">Annual goal <span>$98,541 <sup><i className="fa-solid fa-caret-up fa-fw"></i>110%</sup></span></div>
+                        <div className="slider-one_graph-title">Projects Completed <span>500+ <sup><i className="fa-solid fa-caret-up fa-fw"></i>Growing</sup></span></div>
                         <Image src="/assets/images/main-slider/graph.png" alt="" width={200} height={80} unoptimized />
                       </div>
                       <div className="slider-one_image">
@@ -76,14 +76,14 @@ export default function Home() {
 
                   <div className="slider-one_content col-lg-7 col-md-12 col-sm-12">
                     <div className="slider-one_content-inner">
-                      <div className="slider-one_title"><i><Image src="/assets/images/main-slider/hand.png" alt="" width={30} height={30} unoptimized /></i> AI makes content fast & easy</div>
-                      <h1 className="slider-one_heading">Crafting digital brilliance <span>AI-Driven</span> copywriting</h1>
-                      <div className="slider-one_text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.</div>
+                      <div className="slider-one_title"><i><Image src="/assets/images/main-slider/hand.png" alt="" width={30} height={30} unoptimized /></i> Solar Design Excellence</div>
+                      <h1 className="slider-one_heading">Your One-Stop Shop for <span>Solar</span> Engineering</h1>
+                      <div className="slider-one_text">Expert solar consulting, permit design, CAD/BIM drafting, and fast, AI-powered solutions. From feasibility to installation, we deliver excellence.</div>
                       <div className="slider-one_button d-flex align-items-center flex-wrap">
-                        <a href="about.html" className="template-btn btn-style-one">
+                        <a href="/services" className="template-btn btn-style-one">
                           <span className="btn-wrap">
-                            <span className="text-one">Get started free</span>
-                            <span className="text-two">Get started free</span>
+                            <span className="text-one">Explore Services</span>
+                            <span className="text-two">Explore Services</span>
                           </span>
                         </a>
                         <div className="slider-one_video">
@@ -99,17 +99,17 @@ export default function Home() {
 
                       <div className="slider-one_author">
                         <i><Image src="/assets/images/main-slider/icon-2.png" alt="" width={60} height={60} unoptimized /></i>
-                        <h5 className="slider-one_author-name">Sara Ven</h5>
-                        <div className="slider-one_author-text">Social media manger</div>
+                        <h5 className="slider-one_author-name">Cinuse Team</h5>
+                        <div className="slider-one_author-text">Engineering Experts</div>
                       </div>
 
                       <div className="slider-one_percentage">
                         <i className="fa-solid fa-arrow-up fa-fw"></i>
-                        <div className="slider-one_percent">90<sub>%</sub></div>
-                        <div className="slider-one_percentage-text">efficiency</div>
+                        <div className="slider-one_percent">4.9<sub>/5</sub></div>
+                        <div className="slider-one_percentage-text">customer rating</div>
                       </div>
                       <div className="slider-one_graph">
-                        <div className="slider-one_graph-title">Annual goal <span>$98,541 <sup><i className="fa-solid fa-caret-up fa-fw"></i>110%</sup></span></div>
+                        <div className="slider-one_graph-title">Projects Completed <span>500+ <sup><i className="fa-solid fa-caret-up fa-fw"></i>Growing</sup></span></div>
                         <Image src="/assets/images/main-slider/graph.png" alt="" width={200} height={80} unoptimized />
                       </div>
                       <div className="slider-one_image">
@@ -132,14 +132,14 @@ export default function Home() {
                 <div className="row clearfix">
                   <div className="slider-one_content col-lg-7 col-md-12 col-sm-12">
                     <div className="slider-one_content-inner">
-                      <div className="slider-one_title"><i><Image src="/assets/images/main-slider/hand.png" alt="" width={30} height={30} unoptimized /></i> AI makes content fast & easy</div>
-                      <h1 className="slider-one_heading">Crafting digital brilliance <span>AI-Driven</span> copywriting</h1>
-                      <div className="slider-one_text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.</div>
+                      <div className="slider-one_title"><i><Image src="/assets/images/main-slider/hand.png" alt="" width={30} height={30} unoptimized /></i> Telecom & Data Centers</div>
+                      <h1 className="slider-one_heading">Building Tomorrow&apos;s <span>Network</span> Infrastructure</h1>
+                      <div className="slider-one_text">Comprehensive engineering for 5G/6G networks, data centers, and telecommunications infrastructure. RanPlan & ibWave expertise for optimal performance.</div>
                       <div className="slider-one_button d-flex align-items-center flex-wrap">
-                        <a href="about.html" className="template-btn btn-style-one">
+                        <a href="/contact" className="template-btn btn-style-one">
                           <span className="btn-wrap">
-                            <span className="text-one">Get started free</span>
-                            <span className="text-two">Get started free</span>
+                            <span className="text-one">Get a Quote</span>
+                            <span className="text-two">Get a Quote</span>
                           </span>
                         </a>
                         <div className="slider-one_video">
@@ -155,17 +155,17 @@ export default function Home() {
 
                       <div className="slider-one_author">
                         <i><Image src="/assets/images/main-slider/icon-2.png" alt="" width={60} height={60} unoptimized /></i>
-                        <h5 className="slider-one_author-name">Sara Ven</h5>
-                        <div className="slider-one_author-text">Social media manger</div>
+                        <h5 className="slider-one_author-name">Cinuse Team</h5>
+                        <div className="slider-one_author-text">Engineering Experts</div>
                       </div>
 
                       <div className="slider-one_percentage">
                         <i className="fa-solid fa-arrow-up fa-fw"></i>
-                        <div className="slider-one_percent">90<sub>%</sub></div>
-                        <div className="slider-one_percentage-text">efficiency</div>
+                        <div className="slider-one_percent">24/7<sub></sub></div>
+                        <div className="slider-one_percentage-text">support available</div>
                       </div>
                       <div className="slider-one_graph">
-                        <div className="slider-one_graph-title">Annual goal <span>$98,541 <sup><i className="fa-solid fa-caret-up fa-fw"></i>110%</sup></span></div>
+                        <div className="slider-one_graph-title">Projects Completed <span>500+ <sup><i className="fa-solid fa-caret-up fa-fw"></i>Growing</sup></span></div>
                         <Image src="/assets/images/main-slider/graph.png" alt="" width={200} height={80} unoptimized />
                       </div>
                       <div className="slider-one_image">
@@ -186,7 +186,7 @@ export default function Home() {
         <div className="auto-container">
 
           <div className="sec-title centered">
-            <div className="sec-title_title">Our Service</div>
+            <div className="sec-title_title">Our Services</div>
             <h2 className="sec-title_heading">Engineering Excellence <br /> <span>Meets Automation</span></h2>
           </div>
           <div className="row clearfix">
@@ -196,11 +196,11 @@ export default function Home() {
                 <div className="service-block_one-icon">
                   <i className="icon-speaker1"></i>
                 </div>
-                <h5 className="service-block_one-heading"><a href="service-detail.html">SOLAR DESIGN</a></h5>
+                <h5 className="service-block_one-heading"><a href="/services">SOLAR DESIGN</a></h5>
                 <div className="service-block_one-text">SolarGraf, Helioscope &amp; PVSyst integration for bankable, precision-engineered solar systems</div>
                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                   <div className="service-block_one-number">01</div>
-                  <a className="service-block_one-join" href="service-detail.html">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
+                  <a className="service-block_one-join" href="/services">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
                 </div>
               </div>
             </div>
@@ -210,11 +210,11 @@ export default function Home() {
                 <div className="service-block_one-icon">
                   <i className="icon-marketing"></i>
                 </div>
-                <h5 className="service-block_one-heading"><a href="service-detail.html">SOLAR BUSINESS</a></h5>
-                <div className="service-block_one-text">Strategic consultation for growth, optimization  <span></span>market dominance</div>
+                <h5 className="service-block_one-heading"><a href="/services">SOLAR BUSINESS</a></h5>
+                <div className="service-block_one-text">Strategic consultation for growth, optimization &amp; market dominance</div>
                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                   <div className="service-block_one-number">02</div>
-                  <a className="service-block_one-join" href="service-detail.html">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
+                  <a className="service-block_one-join" href="/services">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
                 </div>
               </div>
             </div>
@@ -224,11 +224,11 @@ export default function Home() {
                 <div className="service-block_one-icon">
                   <i className="icon-users"></i>
                 </div>
-                <h5 className="service-block_one-heading"><a href="service-detail.html">ROI ANALYSIS</a></h5>
+                <h5 className="service-block_one-heading"><a href="/services">ROI ANALYSIS</a></h5>
                 <div className="service-block_one-text">Bankable financial modeling: NPV, IRR, payback &amp; cash flow projections</div>
                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                   <div className="service-block_one-number">03</div>
-                  <a className="service-block_one-join" href="service-detail.html">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
+                  <a className="service-block_one-join" href="/services">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
                 </div>
               </div>
             </div>
@@ -238,11 +238,11 @@ export default function Home() {
                 <div className="service-block_one-icon">
                   <i className="icon-copyright"></i>
                 </div>
-                <h5 className="service-block_one-heading"><a href="service-detail.html">TELECOM</a></h5>
+                <h5 className="service-block_one-heading"><a href="/services">TELECOM</a></h5>
                 <div className="service-block_one-text">RanPlan &amp; ibWave for 5G/6G network design &amp; optimization</div>
                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                   <div className="service-block_one-number">04</div>
-                  <a className="service-block_one-join" href="service-detail.html">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
+                  <a className="service-block_one-join" href="/services">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
                 </div>
               </div>
             </div>
@@ -252,11 +252,11 @@ export default function Home() {
                 <div className="service-block_one-icon">
                   <i className="icon-tag"></i>
                 </div>
-                <h5 className="service-block_one-heading"><a href="service-detail.html">SCAN TO BIM</a></h5>
+                <h5 className="service-block_one-heading"><a href="/services">SCAN TO BIM</a></h5>
                 <div className="service-block_one-text">Point cloud &amp; imagery conversion to precise BIM models</div>
                 <div className="lower-box d-flex justify-content-between align-items-center flex-wrap">
                   <div className="service-block_one-number">05</div>
-                  <a className="service-block_one-join" href="service-detail.html">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
+                  <a className="service-block_one-join" href="/services">Explore+ <i className="fa-solid fa-plus fa-fw"></i></a>
                 </div>
               </div>
             </div>
@@ -267,10 +267,10 @@ export default function Home() {
                 <div className="service-block_two-icon">
                   <Image src="/assets/images/icons/service.png" alt="" width={80} height={80} unoptimized />
                 </div>
-                <h5 className="service-block_two-heading"><a href="service-detail.html">ADVANCE AUTOMATION</a></h5>
+                <h5 className="service-block_two-heading"><a href="/services">ADVANCED AUTOMATION</a></h5>
                 <div className="service-block_two-text">CAD automation, BESS design &amp; end-to-end workflow orchestration</div>
                 <div className="service-block_two-button">
-                  <a href="service.html" className="template-btn btn-style-one">
+                  <a href="/services" className="template-btn btn-style-one">
                     <span className="btn-wrap">
                       <span className="text-one">learn more</span>
                       <span className="text-two">learn more</span>
@@ -306,19 +306,19 @@ export default function Home() {
 
                 <div className="sec-title">
                   <div className="sec-title_title">About us</div>
-                  <h2 className="sec-title_heading">Crafting of your digital <span>narrative discover</span> our journey</h2>
+                  <h2 className="sec-title_heading">Everything Your Business <span>Needs to Succeed</span></h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. <span>Pellentesque sit amet</span> sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis ligula consectetur.</p>
+                <p>We&apos;re your one-stop shop for expert solar consulting, permit design, CAD/BIM drafting, and fast, AI-powered solutions. <span>Our handpicked dream team</span> delivers in-house excellence with a global perspective, ensuring top-tier design, development, and engineering.</p>
+                <p>We aim for your success: outshine competitors, excel in project delivery, and lead new markets. Your growth is our top priority.</p>
                 <div className="about-one_options d-flex align-items-center flex-wrap">
-                  <a href="about.html" className="template-btn btn-style-one">
+                  <a href="/about" className="template-btn btn-style-one">
                     <span className="btn-wrap">
                       <span className="text-one">Know more</span>
                       <span className="text-two">Know more</span>
                     </span>
                   </a>
                   <div className="about-one_rating-box d-flex align-items-center flex-wrap">
-                    4.7
+                    4.9
                     <div className="about-one_rating">
                       <span className="fa fa-star"></span>
                       <span className="fa fa-star"></span>
@@ -341,34 +341,34 @@ export default function Home() {
           <div className="inner-container">
 
             <div className="sec-title light centered">
-              <div className="sec-title_title">why chose us</div>
-              <h2 className="sec-title_heading">Reason to chose our <br /> <span>platform</span></h2>
+              <div className="sec-title_title">why choose us</div>
+              <h2 className="sec-title_heading">Reasons to Choose Our <br /> <span>Platform</span></h2>
             </div>
             <div className="row clearfix">
 
               <div className="counter-block_one col-lg-4 col-md-6 col-sm-12">
                 <div className="counter-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                  <div className="counter-block_one-icon fa-brands fa-instagram fa-fw"></div>
-                  <div className="counter-block_one-count"><span className="odometer" data-count="8000"></span><i>+</i></div>
-                  <div className="counter-block_one-text">More than 8,000 customers have experimented with Kafkai</div>
+                  <div className="counter-block_one-icon fa-solid fa-solar-panel fa-fw"></div>
+                  <div className="counter-block_one-count"><span className="odometer" data-count="500"></span><i>+</i></div>
+                  <div className="counter-block_one-text">Solar projects successfully designed and delivered across North America and beyond</div>
                 </div>
               </div>
 
 
               <div className="counter-block_one col-lg-4 col-md-6 col-sm-12">
                 <div className="counter-block_one-inner wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
-                  <div className="counter-block_one-icon fa-brands fa-instagram fa-fw"></div>
-                  <div className="counter-block_one-count"><span className="odometer" data-count="500000"></span><i>+</i></div>
-                  <div className="counter-block_one-text">More than 8,000 customers have experimented with Kafkai</div>
+                  <div className="counter-block_one-icon fa-solid fa-users fa-fw"></div>
+                  <div className="counter-block_one-count"><span className="odometer" data-count="200"></span><i>+</i></div>
+                  <div className="counter-block_one-text">Satisfied clients worldwide trusting Cinuse for their engineering needs</div>
                 </div>
               </div>
 
 
               <div className="counter-block_one col-lg-4 col-md-6 col-sm-12">
                 <div className="counter-block_one-inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                  <div className="counter-block_one-icon fa-brands fa-instagram fa-fw"></div>
-                  <div className="counter-block_one-count"><span className="odometer" data-count="200000"></span><i>+</i></div>
-                  <div className="counter-block_one-text">More than 8,000 customers have experimented with Kafkai</div>
+                  <div className="counter-block_one-icon fa-solid fa-clock fa-fw"></div>
+                  <div className="counter-block_one-count"><span className="odometer" data-count="24"></span><i>/7</i></div>
+                  <div className="counter-block_one-text">Round-the-clock support and fast turnaround times for all your projects</div>
                 </div>
               </div>
 
@@ -385,16 +385,16 @@ export default function Home() {
             <div className="answer-one_title-column col-lg-5 col-md-12 col-sm-12">
               <div className="answer-one_title-outer">
                 <div className="sec-title title-anim">
-                  <div className="sec-title_title">AI ANSWERS</div>
-                  <h2 className="sec-title_heading">Gain <span>full control</span> of your information docs and many more</h2>
+                  <div className="sec-title_title">OUR EXPERTISE</div>
+                  <h2 className="sec-title_heading">Comprehensive <span>Solar Project</span> Management</h2>
                 </div>
                 <ul className="answer-one_list">
-                  <li><i className="fa-solid fa-check fa-fw"></i>Create a personalized knowledge base on your own Cinuse library</li>
-                  <li><i className="fa-solid fa-check fa-fw"></i>Use your trusted sources to find the answers you need</li>
-                  <li><i className="fa-solid fa-check fa-fw"></i>Stay in the know with AI Q&A and semantic search</li>
+                  <li><i className="fa-solid fa-check fa-fw"></i>End-to-end management from feasibility studies to post-installation support</li>
+                  <li><i className="fa-solid fa-check fa-fw"></i>Cutting-edge tools: HelioScope, AutoCAD, PVSyst, Aurora, and ARKA 360</li>
+                  <li><i className="fa-solid fa-check fa-fw"></i>Residential, commercial, and utility-scale solar solutions</li>
                 </ul>
                 <div className="answer-one_button">
-                  <a href="about.html" className="template-btn btn-style-one">
+                  <a href="/about" className="template-btn btn-style-one">
                     <span className="btn-wrap">
                       <span className="text-one">Know more</span>
                       <span className="text-two">Know more</span>
@@ -423,7 +423,7 @@ export default function Home() {
 
             <div className="sec-title centered">
               <div className="sec-title_title">Testimonials</div>
-              <h2 className="sec-title_heading">What our respectable <br /> <span>clients says</span></h2>
+              <h2 className="sec-title_heading">What Our Respected <br /> <span>Clients Say</span></h2>
             </div>
             <div className="three-item_carousel swiper-container">
               <div className="swiper-wrapper">
@@ -480,7 +480,7 @@ export default function Home() {
                         <span className="fa fa-star"></span>
                         <span className="fa fa-star"></span>
                       </div>
-                      <div className="testimonial-block_one-text">very nice to work with, I will definitely recommand him and I am looking forward to work with him again.</div>
+                      <div className="testimonial-block_one-text">Very nice to work with, I will definitely recommend him and I am looking forward to work with him again.</div>
                       <div className="testimonial-block_one-author_box">
                         <div className="testimonial-block_one-author-image">
                           <Image src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/1c27582ba5a5a26d8fddf579a9e0853e-1607600971552/da5b9c83-b848-4ec2-8749-a28af6eafefd.JPG" alt="Martin" width={80} height={80} unoptimized />
@@ -501,7 +501,7 @@ export default function Home() {
                         <span className="fa fa-star"></span>
                         <span className="fa fa-star"></span>
                       </div>
-                      <div className="testimonial-block_one-text">everything i needed</div>
+                      <div className="testimonial-block_one-text">Everything I needed</div>
                       <div className="testimonial-block_one-author_box">
                         <div className="testimonial-block_one-author-image testimonial-block_one-author-initials">
                           L
@@ -661,11 +661,11 @@ export default function Home() {
 
 
             <div className="sec-title">
-              <div className="sec-title_title">How its work</div>
-              <h2 className="sec-title_heading">Cinuse <span>typically operate</span> in <br /> a three steps</h2>
+              <div className="sec-title_title">How It Works</div>
+              <h2 className="sec-title_heading">Cinuse <span>Typically Operates</span> in <br /> Three Simple Steps</h2>
             </div>
             <div className="steps-one_button">
-              <a href="about.html" className="template-btn btn-style-two">
+              <a href="/about" className="template-btn btn-style-two">
                 <span className="btn-wrap">
                   <span className="text-one">Know more</span>
                   <span className="text-two">Know more</span>
@@ -679,8 +679,8 @@ export default function Home() {
                 <div className="step-block_one">
                   <div className="step-block_one-inner">
                     <div className="step-block_one-steps">step 01</div>
-                    <h5 className="step-block_one-title">Algorithm processing</h5>
-                    <div className="step-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+                    <h5 className="step-block_one-title">Project Consultation</h5>
+                    <div className="step-block_one-text">Share your project requirements with us. We analyze your needs, site conditions, and objectives to create a tailored engineering solution.</div>
                     <div className="step-block_one-content">
                       <div className="image">
                         <Image src="/assets/images/resource/step-1.png" alt="" width={400} height={300} unoptimized />
@@ -696,8 +696,8 @@ export default function Home() {
                 <div className="step-block_one">
                   <div className="step-block_one-inner">
                     <div className="step-block_one-steps">step 02</div>
-                    <h5 className="step-block_one-title">Input & data gathering</h5>
-                    <div className="step-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+                    <h5 className="step-block_one-title">Design & Engineering</h5>
+                    <div className="step-block_one-text">Our expert team creates detailed designs using industry-leading tools like HelioScope, PVSyst, AutoCAD, and Revit. Every detail is precision-engineered.</div>
                     <div className="step-block_one-content">
                       <div className="image">
                         <Image src="/assets/images/resource/step-2.png" alt="" width={400} height={300} unoptimized />
@@ -710,8 +710,8 @@ export default function Home() {
                 <div className="step-block_one">
                   <div className="step-block_one-inner">
                     <div className="step-block_one-steps">step 03</div>
-                    <h5 className="step-block_one-title">Content generation & refinement</h5>
-                    <div className="step-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+                    <h5 className="step-block_one-title">Delivery & Support</h5>
+                    <div className="step-block_one-text">Receive permit-ready drawings, detailed reports, and ongoing support. We ensure your project meets all regulatory requirements and industry standards.</div>
                     <div className="step-block_one-content">
                       <div className="image">
                         <Image src="/assets/images/resource/step-3.png" alt="" width={400} height={300} unoptimized />
@@ -732,8 +732,8 @@ export default function Home() {
           <div className="inner-container">
 
             <div className="sec-title title-anim centered">
-              <div className="sec-title_title">Our Peicing</div>
-              <h2 className="sec-title_heading">Join for <span>free</span> Today</h2>
+              <div className="sec-title_title">Our Solutions</div>
+              <h2 className="sec-title_heading">Explore Our <span>Services</span></h2>
             </div>
             <div className="pricing-tabs tabs-box">
 
@@ -773,12 +773,11 @@ export default function Home() {
                       </div>
 
 
-                      <div className="price-block_one active col-lg-4 col-md-6 col-sm-12">
+                      <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
                           <div className="price-block_one-title">Battery Energy Storage</div>
                           <div className="price-block_one-subtitle">Advanced BESS and hybrid system design for energy independence, peak shaving, and grid stabilization.</div>
                           <div className="price-block_one-content">
-
 
                             <ul className="price-block_one-list">
                               <li><i className="fa-solid fa-check fa-fw"></i>Battery sizing & selection</li>
@@ -791,13 +790,11 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="price-block_one active col-lg-4 col-md-6 col-sm-12">
+                      <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
-                          <div className="price-one_stars" style={{ backgroundImage: "url('/assets/images/icons/price-stars.png')" }}></div>
                           <div className="price-block_one-title">Electrical Systems</div>
                           <div className="price-block_one-subtitle">Comprehensive electrical engineering from load analysis to substation design and permitting documentation.</div>
                           <div className="price-block_one-content">
-
 
                             <ul className="price-block_one-list">
                               <li><i className="fa-solid fa-check fa-fw"></i>Load calculation & analysis</li>
@@ -817,12 +814,10 @@ export default function Home() {
                   <div className="content">
                     <div className="row clearfix">
 
-
                       <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
                           <div className="price-block_one-title">CAD Drafting</div>
-                          <div className="price-block_one-subtitle">Professional AutoCAD services for telecommunication infrastructure, tower design, and site planning.
-                          </div>
+                          <div className="price-block_one-subtitle">Professional AutoCAD services for telecommunication infrastructure, tower design, and site planning.</div>
                           <div className="price-block_one-content">
 
                             <ul className="price-block_one-list">
@@ -836,14 +831,11 @@ export default function Home() {
                         </div>
                       </div>
 
-
-                      <div className="price-block_one active col-lg-4 col-md-6 col-sm-12">
+                      <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
-                          <div className="price-one_stars" style={{ backgroundImage: "url('/assets/images/icons/price-stars.png')" }}></div>
                           <div className="price-block_one-title">BIM Services</div>
-                          <div className="price-block_one-subtitle">Building Information Modeling for telecom facilities, enabling 3D visualization and clash detection</div>
+                          <div className="price-block_one-subtitle">Building Information Modeling for telecom facilities, enabling 3D visualization and clash detection.</div>
                           <div className="price-block_one-content">
-
 
                             <ul className="price-block_one-list">
                               <li><i className="fa-solid fa-check fa-fw"></i>3D BIM modeling</li>
@@ -856,13 +848,11 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="price-block_one active col-lg-4 col-md-6 col-sm-12">
+                      <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
-                          <div className="price-one_stars" style={{ backgroundImage: "url('/assets/images/icons/price-stars.png')" }}></div>
                           <div className="price-block_one-title">Network Design</div>
                           <div className="price-block_one-subtitle">Complete network infrastructure design from fiber optics to equipment rooms and distribution systems.</div>
                           <div className="price-block_one-content">
-
 
                             <ul className="price-block_one-list">
                               <li><i className="fa-solid fa-check fa-fw"></i>Fiber optic network design</li>
@@ -882,59 +872,52 @@ export default function Home() {
                   <div className="content">
                     <div className="row clearfix">
 
+                      <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
+                        <div className="price-block_one-inner">
+                          <div className="price-block_one-title">Power Infrastructure</div>
+                          <div className="price-block_one-subtitle">Complete power distribution design for data centers including UPS systems, generators, and redundancy planning.</div>
+                          <div className="price-block_one-content">
+
+                            <ul className="price-block_one-list">
+                              <li><i className="fa-solid fa-check fa-fw"></i>Power distribution design</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>UPS & generator systems</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Redundancy planning (N+1, 2N)</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Load balancing optimization</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Energy efficiency analysis</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
 
                       <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
-                          <div className="price-block_one-title">Solar PV Design</div>
-                          <div className="price-block_one-subtitle">Complete photovoltaic system engineering for rooftop, ground-mount, and carport installations. Grid-tied and off-grid solutions optimized for maximum energy yield.
-                          </div>
+                          <div className="price-block_one-title">Cooling Systems</div>
+                          <div className="price-block_one-subtitle">Advanced cooling solutions for optimal thermal management and energy efficiency in data center environments.</div>
                           <div className="price-block_one-content">
 
                             <ul className="price-block_one-list">
-                              <li><i className="fa-solid fa-check fa-fw"></i>Module layout & string design</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Single-line diagrams (SLD)</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>PVSyst simulation & yield analysis</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Shade analysis & optimization</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Utility interconnection design</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>HVAC system design</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Hot/cold aisle containment</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Liquid cooling solutions</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>PUE optimization</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>CFD thermal analysis</li>
                             </ul>
                           </div>
                         </div>
                       </div>
 
-
-                      <div className="price-block_one active col-lg-4 col-md-6 col-sm-12">
+                      <div className="price-block_one col-lg-4 col-md-6 col-sm-12">
                         <div className="price-block_one-inner">
-                          <div className="price-one_stars" style={{ backgroundImage: "url('/assets/images/icons/price-stars.png')" }}></div>
-                          <div className="price-block_one-title">Battery Energy Storage</div>
-                          <div className="price-block_one-subtitle">Advanced BESS and hybrid system design for energy independence, peak shaving, and grid stabilization.</div>
+                          <div className="price-block_one-title">Infrastructure Design</div>
+                          <div className="price-block_one-subtitle">Complete data center infrastructure including raised floors, cable management, and fire suppression systems.</div>
                           <div className="price-block_one-content">
 
-
                             <ul className="price-block_one-list">
-                              <li><i className="fa-solid fa-check fa-fw"></i>Battery sizing & selection</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Hybrid solar + storage systems</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>SCADA integration design</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Energy management systems</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Homer Pro modeling</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="price-block_one active col-lg-4 col-md-6 col-sm-12">
-                        <div className="price-block_one-inner">
-                          <div className="price-one_stars" style={{ backgroundImage: "url('/assets/images/icons/price-stars.png')" }}></div>
-                          <div className="price-block_one-title">Electrical Systems</div>
-                          <div className="price-block_one-subtitle">Comprehensive electrical engineering from load analysis to substation design and permitting documentation.</div>
-                          <div className="price-block_one-content">
-
-
-                            <ul className="price-block_one-list">
-                              <li><i className="fa-solid fa-check fa-fw"></i>Load calculation & analysis</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>33kV substation design</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Protection & metering</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Grounding & lightning protection</li>
-                              <li><i className="fa-solid fa-check fa-fw"></i>Permit-ready drawings</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Raised floor systems</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Cable tray & pathway design</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Fire suppression systems</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>Security & access control</li>
+                              <li><i className="fa-solid fa-check fa-fw"></i>BMS integration</li>
                             </ul>
                           </div>
                         </div>
@@ -960,12 +943,12 @@ export default function Home() {
               <div className="faq-one_title-outer">
 
                 <div className="sec-title title-anim">
-                  <div className="sec-title_title">faq</div>
-                  <h2 className="sec-title_heading">Frequently asked <span>questions</span></h2>
-                  <div className="sec-title_text">Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis ligula consectetur.</div>
+                  <div className="sec-title_title">FAQ</div>
+                  <h2 className="sec-title_heading">Frequently Asked <span>Questions</span></h2>
+                  <div className="sec-title_text">Have questions about our engineering services? Find answers to common queries below or contact us for personalized support.</div>
                 </div>
                 <div className="faq-one_button">
-                  <a href="contact.html" className="template-btn btn-style-one">
+                  <a href="/contact" className="template-btn btn-style-one">
                     <span className="btn-wrap">
                       <span className="text-one">Contact now</span>
                       <span className="text-two">Contact now</span>
@@ -985,50 +968,50 @@ export default function Home() {
 
 
                   <li className="accordion block">
-                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>How does your AI copywriting tool work?</div>
+                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>What solar design services do you offer?</div>
                     <div className="acc-content">
                       <div className="content">
-                        <div className="text">Our AI copywriting tool uses sophisticated algorithms to understand context, tone, and language nuances. Users input specific details or prompts, and the AI generates high-quality content based on that input, refining.</div>
+                        <div className="text">We provide comprehensive solar design services including PV system design, permit-ready drawings, single-line diagrams, shade analysis, and performance simulations using industry-leading tools like HelioScope, PVSyst, Aurora, and SolarGraf.</div>
                       </div>
                     </div>
                   </li>
 
 
                   <li className="accordion block">
-                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>What is AI copywriting?</div>
+                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>What is the typical turnaround time for projects?</div>
                     <div className="acc-content">
                       <div className="content">
-                        <div className="text">Our AI copywriting tool uses sophisticated algorithms to understand context, tone, and language nuances. Users input specific details or prompts, and the AI generates high-quality content based on that input, refining.</div>
+                        <div className="text">Turnaround time varies by project complexity. Residential solar designs typically take 2-3 business days, while commercial and utility-scale projects may require 1-2 weeks. We also offer expedited services for urgent requirements.</div>
                       </div>
                     </div>
                   </li>
 
 
                   <li className="accordion block">
-                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>Can I trust the content generated by AI?</div>
+                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>Do you provide permit-ready drawings?</div>
                     <div className="acc-content">
                       <div className="content">
-                        <div className="text">Our AI copywriting tool uses sophisticated algorithms to understand context, tone, and language nuances. Users input specific details or prompts, and the AI generates high-quality content based on that input, refining.</div>
+                        <div className="text">Yes, all our solar and electrical designs are permit-ready. We ensure compliance with local AHJ requirements, NEC codes, and utility standards. Our drawings include all necessary details for smooth permit approval.</div>
                       </div>
                     </div>
                   </li>
 
 
                   <li className="accordion block">
-                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>What types of content can your AI generate?</div>
+                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>What tools and software do you use?</div>
                     <div className="acc-content">
                       <div className="content">
-                        <div className="text">Our AI copywriting tool uses sophisticated algorithms to understand context, tone, and language nuances. Users input specific details or prompts, and the AI generates high-quality content based on that input, refining.</div>
+                        <div className="text">We use industry-standard tools including AutoCAD, Revit, HelioScope, PVSyst, Aurora Solar, SolarGraf, ARKA 360, Homer Pro for BESS, RanPlan and ibWave for telecom, and various BIM platforms for comprehensive engineering solutions.</div>
                       </div>
                     </div>
                   </li>
 
 
                   <li className="accordion block">
-                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>What languages does your AI support?</div>
+                    <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa-solid fa-plus fa-fw"></span></div>Do you work with clients internationally?</div>
                     <div className="acc-content">
                       <div className="content">
-                        <div className="text">Our AI copywriting tool uses sophisticated algorithms to understand context, tone, and language nuances. Users input specific details or prompts, and the AI generates high-quality content based on that input, refining.</div>
+                        <div className="text">Yes, we serve clients globally with expertise in North American, European, and international standards. Our team is experienced with various regulatory requirements and can adapt designs to meet local codes and specifications.</div>
                       </div>
                     </div>
                   </li>
@@ -1047,8 +1030,8 @@ export default function Home() {
         <div className="auto-container">
 
           <div className="sec-title centered">
-            <div className="sec-title_title">Integrations</div>
-            <h2 className="sec-title_heading">Incorporate our tool into <br /> <span>your everyday tasks</span></h2>
+            <div className="sec-title_title">Tools & Technologies</div>
+            <h2 className="sec-title_heading">Industry-Leading Software <br /> <span>We Work With</span></h2>
           </div>
           <div className="social-one_logo">
             <span><Image src="/assets/images/icons/social-logo.png" alt="" width={100} height={100} unoptimized /></span>
@@ -1161,8 +1144,8 @@ export default function Home() {
         <div className="auto-container">
 
           <div className="sec-title title-anim centered">
-            <div className="sec-title_title">our blog</div>
-            <h2 className="sec-title_heading">Read our latest <span>blogs</span></h2>
+            <div className="sec-title_title">Our Expertise</div>
+            <h2 className="sec-title_heading">Engineering <span>Insights</span></h2>
           </div>
           <div className="three-item_carousel swiper-container">
             <div className="swiper-wrapper">
@@ -1173,13 +1156,13 @@ export default function Home() {
                 <div className="news-block_one">
                   <div className="news-block_one-inner">
                     <div className="news-block_one-image">
-                      <a href="news-detail.html"><Image src="/assets/images/resource/news-1.jpg" alt="" width={400} height={300} unoptimized /></a>
+                      <a href="/services"><Image src="/assets/images/resource/news-1.jpg" alt="" width={400} height={300} unoptimized /></a>
                     </div>
                     <div className="news-block_one-content">
-                      <h5 className="news-block_one-title"><a href="news-detail.html">Transforming industries and shaping the future</a></h5>
-                      <div className="news-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis ligula consectetur.</div>
+                      <h5 className="news-block_one-title"><a href="/services">Solar PV System Design Best Practices</a></h5>
+                      <div className="news-block_one-text">Maximize energy yield with optimized module layouts, proper string sizing, and shade analysis. Our designs ensure peak performance for decades.</div>
                       <div className="news-block_one-button">
-                        <a href="blog.html" className="template-btn btn-style-two">
+                        <a href="/services" className="template-btn btn-style-two">
                           <span className="btn-wrap">
                             <span className="text-one">Read more</span>
                             <span className="text-two">Read more</span>
@@ -1197,13 +1180,13 @@ export default function Home() {
                 <div className="news-block_one">
                   <div className="news-block_one-inner">
                     <div className="news-block_one-image">
-                      <a href="news-detail.html"><Image src="/assets/images/resource/news-2.jpg" alt="" width={400} height={300} unoptimized /></a>
+                      <a href="/services"><Image src="/assets/images/resource/news-2.jpg" alt="" width={400} height={300} unoptimized /></a>
                     </div>
                     <div className="news-block_one-content">
-                      <h5 className="news-block_one-title"><a href="news-detail.html">Exploring the cutting-edge of artificial intelligence</a></h5>
-                      <div className="news-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis ligula consectetur.</div>
+                      <h5 className="news-block_one-title"><a href="/services">Battery Storage Integration for Modern Grids</a></h5>
+                      <div className="news-block_one-text">BESS solutions for peak shaving, load shifting, and grid stabilization. Homer Pro modeling ensures optimal battery sizing and ROI.</div>
                       <div className="news-block_one-button">
-                        <a href="blog.html" className="template-btn btn-style-two">
+                        <a href="/services" className="template-btn btn-style-two">
                           <span className="btn-wrap">
                             <span className="text-one">Read more</span>
                             <span className="text-two">Read more</span>
@@ -1221,13 +1204,13 @@ export default function Home() {
                 <div className="news-block_one">
                   <div className="news-block_one-inner">
                     <div className="news-block_one-image">
-                      <a href="news-detail.html"><Image src="/assets/images/resource/news-3.jpg" alt="" width={400} height={300} unoptimized /></a>
+                      <a href="/services"><Image src="/assets/images/resource/news-3.jpg" alt="" width={400} height={300} unoptimized /></a>
                     </div>
                     <div className="news-block_one-content">
-                      <h5 className="news-block_one-title"><a href="news-detail.html">Understanding the basics of artificial intelligence</a></h5>
-                      <div className="news-block_one-text">Lorem ipsum dolor sit amet consectetur adipiscing vitae mattis tellus. Nullam quis mattis ligula consectetur.</div>
+                      <h5 className="news-block_one-title"><a href="/services">5G Network Infrastructure Design</a></h5>
+                      <div className="news-block_one-text">Next-generation telecom engineering with RanPlan and ibWave for optimal coverage, capacity, and performance in urban and rural deployments.</div>
                       <div className="news-block_one-button">
-                        <a href="blog.html" className="template-btn btn-style-two">
+                        <a href="/services" className="template-btn btn-style-two">
                           <span className="btn-wrap">
                             <span className="text-one">Read more</span>
                             <span className="text-two">Read more</span>
@@ -1257,12 +1240,12 @@ export default function Home() {
 
               <div className="cta-one_title-column col-lg-6 col-md-12 col-sm-12">
                 <div className="cta-one_title-outer">
-                  <h2 className="cta-one_title">Craft your next great <span>content now.</span></h2>
+                  <h2 className="cta-one_title">Ready to Start Your <span>Next Project?</span></h2>
                   <div className="cta-one_button">
-                    <a href="about.html" className="template-btn btn-style-three">
+                    <a href="/contact" className="template-btn btn-style-three">
                       <span className="btn-wrap">
-                        <span className="text-one">Get started free</span>
-                        <span className="text-two">Get started free</span>
+                        <span className="text-one">Get a Free Quote</span>
+                        <span className="text-two">Get a Free Quote</span>
                       </span>
                     </a>
                   </div>

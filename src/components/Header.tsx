@@ -12,7 +12,7 @@ const Header = () => {
                         <div className="d-flex justify-content-between align-items-center flex-wrap">
 
                             <div className="logo-box">
-                                <div className="logo"><a href="index.html"><Image src="/assets/images/logo.svg" alt="" title="" width={150} height={50} unoptimized /></a></div>
+                                <div className="logo"><a href="/"><Image src="/assets/images/logo.jpeg" alt="Cinuse" title="Cinuse" width={150} height={50} unoptimized /></a></div>
                             </div>
 
                             <div className="nav-outer d-flex flex-wrap">
@@ -28,21 +28,10 @@ const Header = () => {
 
                                     <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                         <ul className="navigation clearfix">
-                                            <li className="dropdown"><a href="#">Home</a>
-
-                                            </li>
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="/about">About</a></li>
-
-                                            <li className="dropdown">
-                                                <a href="/services">Services</a>
-
-                                            </li>
-
-                                            <li className="dropdown">
-                                                <a href="/contact">Contact</a>
-
-                                            </li>
-                                            {/* <li><a href="contact.html">Contact</a></li> */}
+                                            <li><a href="/services">Services</a></li>
+                                            <li><a href="/contact">Contact</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -50,14 +39,11 @@ const Header = () => {
 
                             <div className="outer-box d-flex align-items-center flex-wrap">
 
-
-
                                 <div className="main-header_buttons">
-
-                                    <a href="#" className="template-btn btn-style-one">
+                                    <a href="/contact" className="template-btn btn-style-one">
                                         <span className="btn-wrap">
-                                            <span className="text-one">Work</span>
-                                            <span className="text-two">Work</span>
+                                            <span className="text-one">Get Quote</span>
+                                            <span className="text-two">Get Quote</span>
                                         </span>
                                     </a>
                                 </div>
@@ -78,7 +64,7 @@ const Header = () => {
                 <div className="close-btn"><span className="icon fa-solid fa-xmark fa-fw"></span></div>
 
                 <nav className="menu-box">
-                    <div className="nav-logo"><a href="index.html"><Image src="/assets/images/mobile-logo.svg" alt="" title="" width={150} height={50} unoptimized /></a></div>
+                    <div className="nav-logo"><a href="/"><Image src="/assets/images/logo.jpeg" alt="Cinuse" title="Cinuse" width={150} height={50} unoptimized /></a></div>
                     <div className="menu-outer">Here Menu Will Come Automatically Via Javascript / Same Menu as in Header</div>
                 </nav>
             </div>

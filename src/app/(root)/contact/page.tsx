@@ -1,7 +1,55 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        subject: "",
+        message: "",
+    });
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState<{ type: 'success' | 'error', message: string } | null>(null);
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+        setSubmitStatus(null);
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                setSubmitStatus({ type: 'success', message: "Message sent successfully! We'll get back to you soon." });
+                setFormData({
+                    firstName: "",
+                    lastName: "",
+                    email: "",
+                    subject: "",
+                    message: "",
+                });
+            } else {
+                setSubmitStatus({ type: 'error', message: "Failed to send message. Please try again." });
+            }
+        } catch {
+            setSubmitStatus({ type: 'error', message: "Something went wrong. Please try again later." });
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
     return (
         <>
 
@@ -13,7 +61,7 @@ const Contact = () => {
                 <div className="auto-container">
                     <h2>Contact Us</h2>
                     <ul className="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Contact Us</li>
                     </ul>
                 </div>
@@ -29,8 +77,7 @@ const Contact = () => {
                                     <i className="icon-phone"></i>
                                 </div>
                                 <h4>Call us on</h4>
-                                <a href="tel:+415-864-8728">+415-864-8728</a> <br />
-                                <a href="tel:+415-864-8729">+415-864-8729</a>
+                                <a href="tel:+917349296574">+91 7349296574</a>
                             </div>
                         </div>
 
@@ -40,8 +87,7 @@ const Contact = () => {
                                     <i className="icon-envelope"></i>
                                 </div>
                                 <h4>Email us</h4>
-                                <a href="/cdn-cgi/l/email-protection#ed"><span className="__cf_email__" data-cfemail="2e5d5b5e5e415c5a6e4c5c4f47404b004d4143">[email&#160;protected]</span></a> <br />
-                                <a href="/cdn-cgi/l/email-protection#7c"><span className="__cf_email__" data-cfemail="690a06071d080a1d290b1b0800070c470a0604">[email&#160;protected]</span></a>
+                                <a href="mailto:contact@cinuse.com">contact@cinuse.com</a>
                             </div>
                         </div>
 
@@ -51,7 +97,7 @@ const Contact = () => {
                                     <i className="icon-map"></i>
                                 </div>
                                 <h4>Our location</h4>
-                                <div className="text">1426 Center StreetBend, OR <br /> 97702, California, USA</div>
+                                <div className="text">Bengaluru - Karnataka <br /> 560017, India</div>
                             </div>
                         </div>
 
@@ -65,51 +111,105 @@ const Contact = () => {
 
                         <div className="column col-lg-6 col-md-12 col-sm-12">
                             <div className="sec-title style-four">
-                                <div className="sec-title_title">Contact me</div>
-                                <h2 className="sec-title_heading">Connect with us for <span>assistance</span></h2>
-                                <div className="sec-title_text">Lorem ipsum dolor sit amet consectetur adipiscing <br /> elit Ut et massa Aliquam in hendrerit urna.</div>
+                                <div className="sec-title_title">Contact us</div>
+                                <h2 className="sec-title_heading">Get in Touch with <span>Us</span></h2>
+                                <div className="sec-title_text">We&apos;re here to answer any questions and assist you. <br /> Reach out to us and we&apos;ll help you in any way we can.</div>
+                            </div>
+
+                            <div className="contact-info_hours" style={{ marginBottom: '20px' }}>
+                                <strong>Business Hours:</strong><br />
+                                Mon-Fri: 00:00-24:00 (IST)<br />
+                                Weekends: 9:00-17:00 (IST)
                             </div>
 
                             <div className="contact-social_box">
-                                <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
-                                <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
-                                <a href="https://youtube.com/"><i className="fa-brands fa-youtube"></i></a>
-                                <a href="https://instagram.com/"><i className="fa-brands fa-instagram"></i></a>
+                                <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                                <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
+                                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
                             </div>
                         </div>
 
                         <div className="column col-lg-6 col-md-12 col-sm-12">
                             <div className="default-form contact-form">
-                                <form method="post" action="sendemail.php" id="contact-form">
+                                {submitStatus && (
+                                    <div style={{
+                                        padding: '15px',
+                                        marginBottom: '20px',
+                                        borderRadius: '5px',
+                                        backgroundColor: submitStatus.type === 'success' ? '#d4edda' : '#f8d7da',
+                                        color: submitStatus.type === 'success' ? '#155724' : '#721c24',
+                                        border: `1px solid ${submitStatus.type === 'success' ? '#c3e6cb' : '#f5c6cb'}`
+                                    }}>
+                                        {submitStatus.message}
+                                    </div>
+                                )}
+                                <form onSubmit={handleSubmit} id="contact-form">
                                     <div className="row clearfix">
 
                                         <div className="form-group col-lg-6 col-md-6 col-sm-6">
-                                            <input type="text" name="name" value="" placeholder="Name" required />
+                                            <input
+                                                type="text"
+                                                name="firstName"
+                                                value={formData.firstName}
+                                                onChange={handleChange}
+                                                placeholder="First Name"
+                                                required
+                                            />
                                         </div>
 
                                         <div className="form-group col-lg-6 col-md-6 col-sm-6">
-                                            <input type="email" name="email" value="" placeholder="Email" required />
-                                        </div>
-                                        <div className="form-group col-lg-6 col-md-6 col-sm-6">
-                                            <input type="text" name="phone" value="" placeholder="Phone" required />
+                                            <input
+                                                type="text"
+                                                name="lastName"
+                                                value={formData.lastName}
+                                                onChange={handleChange}
+                                                placeholder="Last Name"
+                                                required
+                                            />
                                         </div>
 
                                         <div className="form-group col-lg-6 col-md-6 col-sm-6">
-                                            <select name="country" className="custom-select-box">
-                                                <option>Select service</option>
-                                                <option>Service 01</option>
-                                                <option>Service 02</option>
-                                                <option>Service 03</option>
-                                            </select>
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                value={formData.email}
+                                                onChange={handleChange}
+                                                placeholder="Email"
+                                                required
+                                            />
                                         </div>
+
+                                        <div className="form-group col-lg-6 col-md-6 col-sm-6">
+                                            <input
+                                                type="text"
+                                                name="subject"
+                                                value={formData.subject}
+                                                onChange={handleChange}
+                                                placeholder="Subject"
+                                                required
+                                            />
+                                        </div>
+
                                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea className="" name="message" placeholder="Type comment here*"></textarea>
+                                            <textarea
+                                                name="message"
+                                                value={formData.message}
+                                                onChange={handleChange}
+                                                placeholder="Enter your message*"
+                                                required
+                                            ></textarea>
                                         </div>
+
                                         <div className="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <button type="button" className="template-btn btn-style-one">
+                                            <button
+                                                type="submit"
+                                                className="template-btn btn-style-one"
+                                                disabled={isSubmitting}
+                                            >
                                                 <span className="btn-wrap">
-                                                    <span className="text-one">Send now</span>
-                                                    <span className="text-two">Send now</span>
+                                                    <span className="text-one">{isSubmitting ? 'Sending...' : 'Send Message'}</span>
+                                                    <span className="text-two">{isSubmitting ? 'Sending...' : 'Send Message'}</span>
                                                 </span>
                                             </button>
                                         </div>
@@ -125,11 +225,16 @@ const Contact = () => {
             <section className="map-one">
                 <div className="auto-container">
                     <div className="map-one_map">
-                        <iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=18&ie=UTF8&iwloc=&output=embed"></iframe>
+                        <iframe
+                            width="820"
+                            height="560"
+                            id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Bengaluru+Karnataka+560017&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                        ></iframe>
                     </div>
                 </div>
             </section>
-    
+
             <section className="cta-one style-two">
                 <div className="cta-one_shadow" style={{backgroundImage:"url('assets/images/background/cta-shadow.png')"}}></div>
                 <div className="auto-container">
@@ -143,12 +248,12 @@ const Contact = () => {
 
                             <div className="cta-one_title-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="cta-one_title-outer">
-                                    <h2 className="cta-one_title">Craft your next great <span>content now.</span></h2>
+                                    <h2 className="cta-one_title">Let&apos;s unlock possibilities <span>together!</span></h2>
                                     <div className="cta-one_button">
-                                        <a href="about.html" className="template-btn btn-style-three">
+                                        <a href="/about" className="template-btn btn-style-three">
                                             <span className="btn-wrap">
-                                                <span className="text-one">Get started free</span>
-                                                <span className="text-two">Get started free</span>
+                                                <span className="text-one">Learn more about us</span>
+                                                <span className="text-two">Learn more about us</span>
                                             </span>
                                         </a>
                                     </div>
