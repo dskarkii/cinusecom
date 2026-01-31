@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="inner-container d-flex justify-content-between align-items-center flex-wrap">
-              <div className="footer-logo"><a href="/"><Image src="/assets/images/logo.jpeg" alt="Cinuse" title="Cinuse" width={150} height={50} unoptimized /></a></div>
+              <div className="footer-logo"><a href="/" style={{ display: 'flex', alignItems: 'center', gap: '0px' }}><Image src="/assets/images/cinuse-logo.png" alt="Cinuse" title="Cinuse" width={40} height={40} unoptimized /><Image src="/assets/images/logo.svg" alt="Cinuse" title="Cinuse" width={95} height={35} unoptimized /></a></div>
               <div className="footer-copyright">&copy; {new Date().getFullYear()} <a href="/">Cinuse.</a> All rights reserved.</div>
 
               <div className="footer-social_box">
