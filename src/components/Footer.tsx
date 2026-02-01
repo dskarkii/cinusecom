@@ -63,7 +63,7 @@ const Footer = () => {
 
                       <div className="column col-lg-4 col-md-4 col-sm-6">
                         <h5 className="footer-title">Contact</h5>
-                        <ul className="footer-pages_list">
+                        <ul className="footer-pages_list" style={{color: "white"}}>
                           <li><a href="tel:+917349296574">+91 7349296574</a></li>
                           <li><a href="mailto:contact@cinuse.com">contact@cinuse.com</a></li>
                           <li>Bengaluru, Karnataka</li>

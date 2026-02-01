@@ -12,7 +12,7 @@ const Header = () => {
                         <div className="d-flex justify-content-between align-items-center flex-wrap">
 
                             <div className="logo-box">
-                                <div className="logo"><a href="/" style={{ display: 'flex', alignItems: 'center', gap: '0px' }}><Image src="/assets/images/cinuse-logo.png" alt="Cinuse" title="Cinuse" width={40} height={40} unoptimized /><Image src="/assets/images/logo.svg" alt="Cinuse" title="Cinuse" width={95} height={35} unoptimized /></a></div>
+                                <div className="logo"><a href="/" style={{ display: 'flex', alignItems: 'baseline', gap: '0px' }}><Image src="/assets/images/cinuse-logo.png" alt="Cinuse" title="Cinuse" width={60} height={60} unoptimized /><Image style={{marginLeft: '-16px'}} src="/assets/images/logo.svg" alt="Cinuse" title="Cinuse" width={95} height={35} unoptimized /></a></div>
                             </div>
 
                             <div className="nav-outer d-flex flex-wrap">

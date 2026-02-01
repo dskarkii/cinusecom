@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -11,10 +12,10 @@ const About = () => {
                 <div className="page-title-shadow" style={{ backgroundImage: "url('./assets/images/background/page-title-1.png')" }}></div>
                 <div className="page-title-shadow_two" style={{ backgroundImage: "url('./assets/images/background/page-title-2.png')" }}></div>
                 <div className="auto-container">
-                    <h2>About us</h2>
+                    <h2>About Us</h2>
                     <ul className="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>About us</li>
+                        <li><Link href="/">Home</Link></li>
+                        <li>About Us</li>
                     </ul>
                 </div>
             </section>
@@ -26,7 +27,7 @@ const About = () => {
                         <div className="story-one_image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="story-one_image-outer">
                                 <div className="story-one_image">
-                                    <img src="./assets/images/resource/story.png" alt="" />
+                                    <img src="./assets/images/resource/story.png" alt="Cinuse Story" />
                                 </div>
                             </div>
                         </div>
@@ -36,18 +37,18 @@ const About = () => {
                             <div className="story-one_content-outer">
 
                                 <div className="sec-title style-four">
-                                    <div className="sec-title_title">Our story</div>
-                                    <h2 className="sec-title_heading">Navigating the frontier of our <span>intelligence</span></h2>
+                                    <div className="sec-title_title">Our Story</div>
+                                    <h2 className="sec-title_heading">Your One-Stop Shop for <span>Engineering Excellence</span></h2>
                                 </div>
-                                <p>The narrative unfolds as we delve into the inception of our company, tracing the roots of our vision for a future intertwined with artificial intelligence. Through the lens of this captivating chronicle, readers will witness the trials and triumphs that have shaped. the story weaves together the intricate threads of innovation</p>
-                                <p>Through anecdotes and case studies, readers will witness the tangible difference our innovations make in fields ranging from healthcare and finance to education and beyond.</p>
+                                <p>At Cinuse, we are passionate about delivering comprehensive engineering solutions that drive success for businesses worldwide. From expert solar consulting and permit design to CAD/BIM drafting and AI-powered solutions, we provide everything your business needs to thrive in today&apos;s competitive landscape.</p>
+                                <p>Our team of skilled professionals combines years of industry expertise with cutting-edge technology to deliver innovative, cost-effective solutions tailored to meet each client&apos;s unique requirements.</p>
                                 <div className="story-one_button">
-                                    <a href="#" className="template-btn btn-style-one">
+                                    <Link href="/contact" className="template-btn btn-style-one">
                                         <span className="btn-wrap">
-                                            <span className="text-one">Know more</span>
-                                            <span className="text-two">Know more</span>
+                                            <span className="text-one">Get in Touch</span>
+                                            <span className="text-two">Get in Touch</span>
                                         </span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +61,8 @@ const About = () => {
                 <div className="auto-container">
 
                     <div className="sec-title style-four centered">
-                        <div className="sec-title_title">core value</div>
-                        <h2 className="sec-title_heading">Unveiling our <span>core values</span> <br /> for lasting impact.</h2>
+                        <div className="sec-title_title">Core Values</div>
+                        <h2 className="sec-title_heading">What Drives <span>Our Excellence</span></h2>
                     </div>
                     <div className="row clearfix">
 
@@ -71,8 +72,8 @@ const About = () => {
                                 <div className="value-block_one-icon">
                                     <i className="icon-users-4"></i>
                                 </div>
-                                <h5 className="value-block_one-title">People</h5>
-                                <div className="value-block_one-text">The impact of our AI solutions on the broader world forms a central theme, highlighting real-world applications and the positive changes</div>
+                                <h5 className="value-block_one-title">One Stop Shop</h5>
+                                <div className="value-block_one-text">Engage us for web design, development, SEO, social media, and email marketing—all in one place. We deliver comprehensive solutions under one roof.</div>
                             </div>
                         </div>
 
@@ -82,8 +83,8 @@ const About = () => {
                                 <div className="value-block_one-icon">
                                     <i className="icon-bulb1"></i>
                                 </div>
-                                <h5 className="value-block_one-title">Innovation</h5>
-                                <div className="value-block_one-text">The impact of our AI solutions on the broader world forms a central theme, highlighting real-world applications and the positive changes</div>
+                                <h5 className="value-block_one-title">Handpicked Dream Team</h5>
+                                <div className="value-block_one-text">We deliver in-house excellence with a global team, ensuring top-tier design, development, and marketing services for every project we undertake.</div>
                             </div>
                         </div>
 
@@ -93,8 +94,8 @@ const About = () => {
                                 <div className="value-block_one-icon">
                                     <i className="fa-solid fa-bullseye fa-fw"></i>
                                 </div>
-                                <h5 className="value-block_one-title">Mission</h5>
-                                <div className="value-block_one-text">The impact of our AI solutions on the broader world forms a central theme, highlighting real-world applications and the positive changes</div>
+                                <h5 className="value-block_one-title">Growth Obsessed</h5>
+                                <div className="value-block_one-text">We aim for your success: outshine competitors, excel in PPC, and lead new markets. Your growth is our top priority in everything we do.</div>
                             </div>
                         </div>
 
@@ -102,12 +103,12 @@ const About = () => {
 
 
                     <div className="value-one_button text-center">
-                        <a href="#" className="template-btn btn-style-two">
+                        <Link href="/contact" className="template-btn btn-style-two">
                             <span className="btn-wrap">
-                                <span className="text-one">Join braine today</span>
-                                <span className="text-two">Join braine today</span>
+                                <span className="text-one">Work With Us</span>
+                                <span className="text-two">Work With Us</span>
                             </span>
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
@@ -121,67 +122,33 @@ const About = () => {
                             <div className="team-one_title-outer">
 
                                 <div className="sec-title style-four">
-                                    <div className="sec-title_title">Our team</div>
-                                    <h2 className="sec-title_heading">Team behind the <span>innovation</span></h2>
-                                    <div className="sec-title_text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa Aliquam hendrerit urna.Maecenas vitae mattis tellus.</div>
+                                    <div className="sec-title_title">Why Choose Cinuse</div>
+                                    <h2 className="sec-title_heading">Eagle-Eyed <span>Excellence</span></h2>
+                                    <div className="sec-title_text">Big wins come from attention to detail. No shortcuts or copycats—we deliver precision engineering and design services that exceed expectations.</div>
                                 </div>
 
-                                <div className="team-one_arrows">
-                                    <div className="team_carousel-prev fa-solid fa-angle-left fa-fw"></div>
-                                    <div className="team_carousel-next fa-solid fa-angle-right fa-fw"></div>
-                                </div>
                             </div>
                         </div>
 
 
                         <div className="team-one_team-column col-lg-8 col-md-12 col-sm-12">
                             <div className="team-one_team-outer">
-                                <div className="team-carousel swiper-container">
-                                    <div className="swiper-wrapper">
-
-
-                                        <div className="swiper-slide">
-
-                                            <div className="team-block_one">
-                                                <div className="team-block_one-inner">
-                                                    <div className="team-block_one-image">
-                                                        <a href="team-detail.html"><img src="./assets/images/resource/team-1.jpg" alt="" /></a>
-                                                    </div>
-                                                    <div className="team-block_one-content">
-                                                        <h4 className="team-block_one-title"><a href="team-detail.html">Elliot S. Acevedo</a></h4>
-                                                        <div className="team-block_one-designation">Founder</div>
-
-                                                        <div className="team-block_one-socials">
-                                                            <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
-                                                            <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
-                                                            <a href="https://linkedin.com/"><i className="fa-brands fa-linkedin-in"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                <div className="row clearfix">
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <div className="feature-block">
+                                            <div className="feature-block-inner" style={{ padding: '30px', background: '#f8f9fa', borderRadius: '10px', marginBottom: '20px' }}>
+                                                <h4 style={{ marginBottom: '15px', color: '#333' }}>Precision Engineering</h4>
+                                                <p>Our team delivers accurate 2D and 3D designs for architectural plans, engineering projects, and technical drawings using industry-leading software.</p>
                                             </div>
                                         </div>
-
-                                        <div className="swiper-slide">
-
-                                            <div className="team-block_one">
-                                                <div className="team-block_one-inner">
-                                                    <div className="team-block_one-image">
-                                                        <a href="team-detail.html"><img src="./assets/images/resource/team-2.jpg" alt="" /></a>
-                                                    </div>
-                                                    <div className="team-block_one-content">
-                                                        <h4 className="team-block_one-title"><a href="team-detail.html">Elliot S. Acevedo</a></h4>
-                                                        <div className="team-block_one-designation">Founder</div>
-
-                                                        <div className="team-block_one-socials">
-                                                            <a href="https://facebook.com/"><i className="fa-brands fa-facebook-f"></i></a>
-                                                            <a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a>
-                                                            <a href="https://linkedin.com/"><i className="fa-brands fa-linkedin-in"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <div className="feature-block">
+                                            <div className="feature-block-inner" style={{ padding: '30px', background: '#f8f9fa', borderRadius: '10px', marginBottom: '20px' }}>
+                                                <h4 style={{ marginBottom: '15px', color: '#333' }}>Global Expertise</h4>
+                                                <p>With experience across North America and beyond, we understand diverse market requirements and deliver solutions that meet international standards.</p>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
 
@@ -197,7 +164,7 @@ const About = () => {
 
                     <div className="sec-title style-four centered">
                         <div className="sec-title_title">Success Stories</div>
-                        <h2 className="sec-title_heading">Our clients share their <br /> <span>experience</span></h2>
+                        <h2 className="sec-title_heading">Our Clients Share Their <br /> <span>Experience</span></h2>
                     </div>
 
                     <div className="three-item_carousel ">
@@ -442,14 +409,14 @@ const About = () => {
 
                             <div className="cta-one_title-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="cta-one_title-outer">
-                                    <h2 className="cta-one_title">Craft your next great <span>content now.</span></h2>
+                                    <h2 className="cta-one_title">Ready to Start Your <span>Project?</span></h2>
                                     <div className="cta-one_button">
-                                        <a href="about.html" className="template-btn btn-style-three">
+                                        <Link href="/contact" className="template-btn btn-style-three">
                                             <span className="btn-wrap">
-                                                <span className="text-one">Get started free</span>
-                                                <span className="text-two">Get started free</span>
+                                                <span className="text-one">Contact Us Today</span>
+                                                <span className="text-two">Contact Us Today</span>
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

@@ -116,7 +116,7 @@ const Contact = () => {
                                 <div className="sec-title_text">We&apos;re here to answer any questions and assist you. <br /> Reach out to us and we&apos;ll help you in any way we can.</div>
                             </div>
 
-                            <div className="contact-info_hours" style={{ marginBottom: '20px' }}>
+                            <div className="contact-info_hours" style={{ marginBottom: '20px', color: 'white' }}>
                                 <strong>Business Hours:</strong><br />
                                 Mon-Fri: 00:00-24:00 (IST)<br />
                                 Weekends: 9:00-17:00 (IST)
