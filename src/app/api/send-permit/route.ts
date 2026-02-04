@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resendApiKey = process.env.RESEND_API_KEY || 're_8ZUVPaHp_NyEovEQqMK6zKVkGUmWDR8G4';
-const resend = new Resend(resendApiKey);
+const getResend = () => new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
@@ -178,7 +177,7 @@ export async function POST(req: NextRequest) {
       </html>
     `;
 
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'Cinuse <contact@cinuse.com>',
       to: ['contact@cinuse.com', 'dskarki100@gmail.com', 'infokarki100@gmail.com', 'karkigauravsingh@gmail.com'],
       subject: `New Solar Permit Submission - ${formData.firstName || 'Client'}`,

@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resendApiKey = process.env.RESEND_API_KEY || 're_8ZUVPaHp_NyEovEQqMK6zKVkGUmWDR8G4';
-const resend = new Resend(resendApiKey);
+const getResend = () => new Resend(process.env.RESEND_API_KEY);
 
 const currencyFmt = (v: number, c = "$") => `${c}${(v ?? 0).toLocaleString(undefined, { maximumFractionDigits: 0 })}`;
 
@@ -169,7 +168,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
 
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'Cinuse Solar Calculator <contact@cinuse.com>',
       to: [clientEmail],
       cc: ['contact@cinuse.com', 'dskarki100@gmail.com', 'karkigauravsingh@gmail.com', 'infokarki100@gmail.com'],
